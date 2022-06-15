@@ -27,7 +27,7 @@ class MultiplicationTest extends BaseIOTest {
     void printMultipliedZero() {
         Multiplication multiplication = new Multiplication();
 
-        multiplication.printMultiplied(-5);
+        multiplication.printMultiplied(0);
 
         assertOutEquals("");
     }
