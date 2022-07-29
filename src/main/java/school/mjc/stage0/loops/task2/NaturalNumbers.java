@@ -2,10 +2,10 @@ package school.mjc.stage0.loops.task2;
 
 public class NaturalNumbers {
     public void naturalNumbersPrinter(int lastPrinted) {
-        int i = 0;
-        while (i < lastPrinted) {
-            System.out.print(i + " ");
-            i++;
+        int num = 0;
+        while (num <= lastPrinted) {
+            System.out.println(num);
+            num++;
         }
     }
 }
